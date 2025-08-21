@@ -6,13 +6,14 @@ const Hero = () => {
     <section id="home" className="min-h-screen flex items-center justify-center pt-20">
       <div className="max-w-4xl mx-auto px-6 text-center">
         <div className="mb-8">
-          <div className="relative w-40 h-40 mx-auto mb-8 animate-fade-in">
+          <div className="relative w-48 h-48 mx-auto mb-8 animate-fade-in">
             <img 
               src="/lovable-uploads/fe0f4034-b747-4897-8ca6-4494ffa4fe3a.png"
               alt="Bhargavi Chamalla - UI/UX & Graphic Designer"
-              className="w-full h-full object-cover rounded-full border-4 border-primary shadow-lg animate-scale-in hover:scale-105 transition-transform duration-300"
+              className="w-full h-full object-contain rounded-full border-4 border-primary shadow-2xl animate-scale-in hover:scale-105 transition-all duration-500 ease-out bg-gradient-blue-purple p-1"
             />
-            <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary/20 to-transparent animate-fade-in"></div>
+            <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary/30 via-purple/20 to-teal/20 animate-fade-in opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="absolute -inset-1 rounded-full bg-gradient-purple-teal opacity-20 blur-md animate-pulse"></div>
           </div>
         </div>
         
