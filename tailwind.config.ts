@@ -28,6 +28,22 @@ export default {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
 				},
+				purple: {
+					DEFAULT: 'hsl(var(--purple))',
+					foreground: 'hsl(var(--purple-foreground))'
+				},
+				teal: {
+					DEFAULT: 'hsl(var(--teal))',
+					foreground: 'hsl(var(--teal-foreground))'
+				},
+				orange: {
+					DEFAULT: 'hsl(var(--orange))',
+					foreground: 'hsl(var(--orange-foreground))'
+				},
+				neutral: {
+					DEFAULT: 'hsl(var(--neutral))',
+					foreground: 'hsl(var(--neutral-foreground))'
+				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
@@ -52,13 +68,6 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				/* Portfolio specific colors for better visibility */
-				'nav-text': 'hsl(210 20% 98%)',
-				'nav-hover': 'hsl(217 91% 60%)',
-				'hero-text': 'hsl(210 20% 98%)',
-				'hero-accent': 'hsl(217 91% 60%)',
-				'button-primary': 'hsl(217 91% 60%)',
-				'button-text': 'hsl(210 20% 98%)',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -69,6 +78,12 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-blue-purple': 'var(--gradient-blue-purple)',
+				'gradient-purple-teal': 'var(--gradient-purple-teal)',
+				'gradient-teal-orange': 'var(--gradient-teal-orange)',
+				'gradient-neutral': 'var(--gradient-neutral)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
