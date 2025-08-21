@@ -6,8 +6,13 @@ const Hero = () => {
     <section id="home" className="min-h-screen flex items-center justify-center pt-20">
       <div className="max-w-4xl mx-auto px-6 text-center">
         <div className="mb-8">
-          <div className="w-32 h-32 bg-card border-2 border-primary rounded-full mx-auto mb-8 flex items-center justify-center">
-            <span className="text-4xl font-bold text-primary">BC</span>
+          <div className="relative w-40 h-40 mx-auto mb-8 animate-fade-in">
+            <img 
+              src="/lovable-uploads/fe0f4034-b747-4897-8ca6-4494ffa4fe3a.png"
+              alt="Bhargavi Chamalla - UI/UX & Graphic Designer"
+              className="w-full h-full object-cover rounded-full border-4 border-primary shadow-lg animate-scale-in hover:scale-105 transition-transform duration-300"
+            />
+            <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary/20 to-transparent animate-fade-in"></div>
           </div>
         </div>
         
