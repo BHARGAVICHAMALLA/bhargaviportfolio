@@ -10,7 +10,8 @@ const Hero = () => {
             <img 
               src="/lovable-uploads/fe0f4034-b747-4897-8ca6-4494ffa4fe3a.png"
               alt="Bhargavi Chamalla - UI/UX & Graphic Designer"
-              className="w-full h-full object-cover rounded-full border-4 border-primary shadow-lg animate-scale-in hover:scale-105 transition-transform duration-300"
+              className="w-full h-full object-cover object-top rounded-full border-4 border-primary shadow-lg animate-scale-in hover:scale-105 transition-transform duration-300"
+              style={{ objectPosition: '50% 20%' }}
             />
             <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary/20 to-transparent animate-fade-in"></div>
           </div>
